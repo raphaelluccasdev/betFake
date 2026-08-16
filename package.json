@@ -1,0 +1,29 @@
+{
+  "name": "betfake",
+  "version": "1.0.0",
+  "description": "Simulador de cassino educativo com monetização via Google AdSense",
+  "main": "bet.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "server": "npx http-server -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cassino",
+    "simulador",
+    "educativo",
+    "jogos",
+    "aposta-ficticia",
+    "adsense"
+  ],
+  "author": "Raphael Lucas",
+  "license": "MIT",
+  "dependencies": {
+    "framer-motion": "^13.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raphaelluccasdev/betFake.git"
+  },
+  "homepage": "https://raphaelluccasdev.github.io/betFake"
+}
